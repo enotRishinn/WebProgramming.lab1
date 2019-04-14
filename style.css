@@ -8,9 +8,15 @@
 .header {
 	width: calc(100% - 4px);
 	background-color: #262523;
-	min-height: 100px;
+	min-height: 150px;
 	border: 2px groove #0A1016;
 	margin-top: 2px;
+	font-family: Comic Sans MS, sans-serif;
+	color: #FFAA00;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 3.5em;
 }
 
 .footer {
