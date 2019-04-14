@@ -5,12 +5,15 @@
 	background-color: #33312e;
 }
 
+p {
+	background-color: transparent;
+}
+
 .header {
-	width: calc(100% - 4px);
+	width: calc(100% - 16px);
 	background-color: #262523;
-	min-height: 150px;
-	border: 2px groove #0A1016;
-	margin-top: 2px;
+	min-height: 100px;
+	border: 8px groove #03094B;
 	font-family: Comic Sans MS, sans-serif;
 	color: #FFAA00;
 	justify-content: center;
@@ -20,4 +23,5 @@
 }
 
 .footer {
+	
 }
