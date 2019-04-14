@@ -6,10 +6,11 @@
 }
 
 .header {
-	width: clac(100% - 8px);
+	width: calc(100% - 4px);
 	background-color: #262523;
-	min-height: 40px
-	border: 4px groove #0A1016;
+	min-height: 100px;
+	border: 2px groove #0A1016;
+	margin-top: 2px;
 }
 
 .footer {
