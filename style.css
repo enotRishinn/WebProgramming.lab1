@@ -23,6 +23,7 @@ html {
 	list-style-position: inside;
 	background-color: transparent;
 	margin: 1% 1% 2% 3%;
+
 }
 
 .advantages .head, .disadvantages .head {
@@ -45,23 +46,19 @@ html {
 	margin: 2%;
 	background-color: #262523;
 	border: 6px groove #03094B;
-	min-height: 400px;
+	min-height: 450px;
 }
 
-.android_adv, .iOS_adv, .android_dis, .iOS_dis {
+.advantages .android_adv, .advantages .iOS_adv, .android_dis, .iOS_dis {
 	width: calc(48% - 20px);
-	min-height: 300px;
+	height: 400px;
 	background-color: #19181A; 
 	margin: 1%;
 	border: 5px groove #2F2A42;
+	display: inline-table;
+
 }
 
-.android_adv, .android_dis  {
-	float: left;
-}
 
-.iOS_adv, .iOS_dis {
-	float: right;
-}
 
 
