@@ -80,11 +80,11 @@ html {
 @media screen and (min-width: 700px) and (max-width: 900px), screen and (width: 900px) {
 	
 .main-head {
-	font-size: 2.8em;
+	font-size: 2.2em;
 }
 
 .head, .main-head  {
-	font-size: 2.3em;
+	font-size: 1.7em;
 }
 
 .list_andr_adv, .list_ios_adv, .list_andr_dis, .list_ios_dis {
@@ -96,11 +96,11 @@ html {
 	width: calc(100% - 12px);
 	height: 100px;
 	border: 6px groove #03094B;
-	font-size: 4.3em;
+	font-size: 3.7em;
 }	
 
 .advantages, .disadvantages {
-	width: 96%;
+	width: calc(96%-8px);
 	margin: 2%;
 	border: 4px groove #03094B;
 	display: table;
@@ -109,7 +109,7 @@ html {
 }	
 
 .android_adv, .iOS_adv, .android_dis, .iOS_dis {
-	width: 90%;
+	width: calc(96%-6px);
 	margin: 3%;
 	border: 3px groove #2F2A42;
 	display: table-inline;
